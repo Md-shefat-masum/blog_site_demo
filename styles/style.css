@@ -1,0 +1,280 @@
+.goto_top{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+header {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+/* header a {} */
+
+header a img {
+    height: 70px;
+}
+
+/* nav part start */
+nav {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+nav ul {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding: 30px 0px;
+}
+
+nav ul li {
+    /* border: 1px solid red; */
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0px 20px;
+    transition-duration: .3s;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 253);
+    background-color: rgb(196, 32, 6);
+}
+
+/* nav ul li a:visited{
+    color: purple;
+} */
+
+/* banner start */
+#banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+#banner .banner_content {
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 140px 0px;
+    backdrop-filter: blur(7px);
+}
+
+#banner .banner_content h1 {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#banner .banner_content p {
+    color: white;
+    /* border: 1px solid red; */
+    margin: 0;
+    font-family: 'Noticia Text', serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#banner .banner_content a {
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+/* service part start */
+#service {
+    padding: 50px 0px;
+    position: relative;
+}
+
+#service .top {
+    text-align: center;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: white;
+    /* border-bottom: 1px solid black; */
+}
+
+#service .top h2 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+#service .top p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+#service .bottom {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#service .bottom .item {
+    display: inline-block;
+    width: 24%;
+    /* border: 1px solid red; */
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+#service .bottom .item .top_icon_part {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#service .bottom .item .top_icon_part img {
+    height: 40px;
+}
+
+#service .bottom .item .top_icon_part h3 {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    margin: 10px 0px;
+}
+
+#service .bottom .item p {
+    margin: 30px 0px;
+    font-family: 'Noticia Text', serif;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+/* contact part start */
+#contact {
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0px;
+}
+
+#contact .heading {
+    text-align: center;
+}
+
+#contact .heading h2 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+#contact .heading p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+#contact form {
+    border: 1px solid rgba(253, 253, 253, 0.568);
+    backdrop-filter: blur(2px);
+    padding: 30px;
+    border-radius: 5px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0px 0px 10px white;
+    position: relative;
+}
+
+
+#contact form div {
+    /* border: 1px solid blue; */
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#contact form .light{
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/light2.png');
+    background-size: 100%;
+    left: 0;
+    top: 0px;
+    mix-blend-mode: screen;
+    opacity: .5;
+    z-index: -1;
+}
+
+#contact form div:last-child{
+    text-align: center;
+}
+
+#contact form div label {
+    display: block;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#contact form div input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(230, 221, 221, 0.424);
+}
+
+#contact form div input:focus{
+    outline: 0;
+    border: 1px solid rgba(253, 253, 253, 0.568);
+    box-shadow: 0px 0px 10px white;
+}
+
+#contact form button {
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+#contact form button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* contact part end */
